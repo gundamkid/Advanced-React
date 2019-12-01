@@ -1,4 +1,5 @@
 import Nav from "./Nav";
+import Banner from "./Banner";
 import Link from 'next/link';
 import styled from 'styled-components';
 
@@ -56,6 +57,10 @@ const Header = () => (
       <p>Search</p>
     </div>
     <div>Cart</div>
+
+    <div>
+      <Banner></Banner>
+    </div>
   </StyleHeader>
 );
 
